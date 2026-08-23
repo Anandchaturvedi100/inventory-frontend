@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
-const API_URL = 'http://localhost:5000/api/items';
+// Localhost URL ko hata kar Render wala Live Link lagayein:
+const API_URL = 'https://inventory-backend-dpw5.onrender.com';
 
 export default function App() {
   const [items, setItems] = useState([]);
